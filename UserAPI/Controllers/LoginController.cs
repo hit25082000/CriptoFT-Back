@@ -24,5 +24,21 @@ namespace UserAPI.Controllers
 
             return Ok(result.Successes);
         }
+
+        [HttpPost("/solicita-reset-senha")]
+        public IActionResult RequestPasswordReset(RequestPasswordResetRequest request)
+        {
+            Result result = _loginService.RequestPasswordReset(request);
+            if (result.IsFailed) return Unauthorized(result.Errors);
+            return Ok(result.Successes);
+        }
+
+        [HttpPost("/redefinir-senha")]
+        public IActionResult PasswordReset(ResetPasswordRequest request)
+        {
+            Result result = _loginService.PasswordReset(request);
+            if (result.IsFailed) return Unauthorized(result.Errors);
+            return Ok(result.Successes);
+        }
     }
 }

@@ -29,5 +29,32 @@ namespace UserAPI.Services
             }
             return Result.Fail("Login falhou");
         }
+
+        public Result RequestPasswordReset(RequestPasswordResetRequest request)
+        {
+            IdentityUser<int> identityUser = GetUserFromEmail(request.Email);
+
+            if (identityUser != null)
+            {
+                string recoverCode = _signInManager.UserManager.GeneratePasswordResetTokenAsync(identityUser).Result;
+                return Result.Ok().WithSuccess(recoverCode);
+            }
+
+            return Result.Fail("Falha ao solicitar redefinição de senha");
+        }
+
+        public Result PasswordReset(ResetPasswordRequest request)
+        {
+            IdentityUser<int> identityUser = GetUserFromEmail(request.Email);
+
+            IdentityResult identityResult = _signInManager.UserManager.ResetPasswordAsync(identityUser, request.Token, request.Password).Result;
+
+            if (identityResult.Succeeded) return Result.Ok().WithSuccess("Senha redefinida com sucesso");
+            return Result.Fail("Houve erro na redefinição");
+        }
+        private IdentityUser<int> GetUserFromEmail(string email)
+        {
+            return _signInManager.UserManager.Users.FirstOrDefault(u => u.NormalizedEmail == email.ToUpper());
+        }
     }
 }
