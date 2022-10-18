@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "19b81066-4ec2-4a1d-92f0-cf68892bb82d": {
+      "ProjectGuid": "19b81066-4ec2-4a1d-92f0-cf68892bb82d",
+      "DisplayName": "ProfilesAPI",
+      "ColorIndex": 0
+    },
+    "88ca2915-5006-442a-8508-3d9aac8ad9e9": {
+      "ProjectGuid": "88ca2915-5006-442a-8508-3d9aac8ad9e9",
+      "DisplayName": "UsuariosAPI",
+      "ColorIndex": 1
+    },
+    "ddc6d211-3dfa-4ddf-b781-3c64c1492d7e": {
+      "ProjectGuid": "ddc6d211-3dfa-4ddf-b781-3c64c1492d7e",
+      "DisplayName": "UserAPI",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "bf5a5f21-e36a-43ed-8394-3a2dd0ff3458": {
+      "ProjectGuid": "bf5a5f21-e36a-43ed-8394-3a2dd0ff3458",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
