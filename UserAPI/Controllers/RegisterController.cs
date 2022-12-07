@@ -6,7 +6,7 @@ using UserAPI.Services;
 
 namespace UserApi.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class RegisterController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace UserApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegisterUser(CreateUserDto createDto)
+        public IActionResult RegisterUser([FromBody] CreateUserDto createDto)
         {
             Result result = _registerService.RegisterUser(createDto);
             if (result.IsFailed) return StatusCode(500);

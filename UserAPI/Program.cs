@@ -10,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+
 builder.Services.AddEndpointsApiExplorer();
 //Added manualy
 builder.Services.AddDbContext<UserDbContext>(options =>
@@ -30,6 +32,10 @@ builder.Services.AddScoped<EmailService, EmailService>();
 builder.Services.AddScoped<LogoutService, LogoutService>();
 builder.Services.AddScoped<TokenService, TokenService>();
 builder.Services.AddScoped<LoginService, LoginService>();
+builder.Services.AddScoped<UserService, UserService>();
+
+
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -37,6 +43,13 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
 }
+
+app.UseCors(c =>
+{
+    c.AllowAnyHeader();
+    c.AllowAnyMethod();
+    c.AllowAnyOrigin();
+});
 
 app.UseHttpsRedirection();
 

@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domin\\Documents\\Luiz Eduardo\\INSTED\\2\\Projeto Integrador\\Api\\CryptoFT\\UserAPI\\UserAPI.csproj": {}
+    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domin\\Documents\\Luiz Eduardo\\INSTED\\2\\Projeto Integrador\\Api\\CryptoFT\\UserAPI\\UserAPI.csproj": {
+    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domin\\Documents\\Luiz Eduardo\\INSTED\\2\\Projeto Integrador\\Api\\CryptoFT\\UserAPI\\UserAPI.csproj",
+        "projectUniqueName": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
         "projectName": "UserAPI",
-        "projectPath": "C:\\Users\\domin\\Documents\\Luiz Eduardo\\INSTED\\2\\Projeto Integrador\\Api\\CryptoFT\\UserAPI\\UserAPI.csproj",
+        "projectPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
         "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domin\\Documents\\Luiz Eduardo\\INSTED\\2\\Projeto Integrador\\Api\\CryptoFT\\UserAPI\\obj\\",
+        "outputPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +100,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -115,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
