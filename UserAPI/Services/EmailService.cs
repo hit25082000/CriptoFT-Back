@@ -50,11 +50,16 @@ namespace UserAPI.Services
             emailMensage.From.Add(MailboxAddress.Parse(_configuration.GetValue<string>("EmailSettings:From")));
             emailMensage.To.AddRange(mensage.Destiny);
             emailMensage.Subject = mensage.About;
-            emailMensage.Body = new TextPart(MimeKit.Text.TextFormat.Text)
-            {
-                Text = mensage.Content
-            };
 
+            var htmlBody = new BodyBuilder();
+            htmlBody.HtmlBody = $"<p>Olá, Obrigado por se cadastrar no CryptoFT.</p>"
+                             + "<p>Para ativar a sua conta, clique no botão abaixo:</p>"
+                             + $"<p><a href='{mensage.Content}' style='background-color: #4CAF50; color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px;'>Ativar Conta</a></p>"
+                             + "<p>Se o botão não funcionar, você também pode ativar a sua conta copiando e colando o seguinte link em seu navegador:</p>"
+                             + $"<p><a href='{mensage.Content}'>{mensage.Content}</a></p>";
+
+            emailMensage.Body = htmlBody.ToMessageBody();
+            
             return emailMensage;
         }
     }

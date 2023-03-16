@@ -21,7 +21,7 @@ namespace UserApi.Controllers
         public IActionResult RegisterUser([FromBody] CreateUserDto createDto)
         {
             Result result = _registerService.RegisterUser(createDto);
-            if (result.IsFailed) return StatusCode(500);
+            if (result.IsFailed) return StatusCode(500,result);
             return Ok(result.Successes);
         }      
         
