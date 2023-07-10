@@ -27,13 +27,14 @@ builder.Services.AddIdentity<IdentityUser<int>, IdentityRole<int>>(
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<UserService, UserService>();
+builder.Services.AddScoped<NoticiaService, NoticiaService>();
+builder.Services.AddScoped<AulaService, AulaService>();
 builder.Services.AddScoped<RegisterService, RegisterService>();
 builder.Services.AddScoped<EmailService, EmailService>();
 builder.Services.AddScoped<LogoutService, LogoutService>();
 builder.Services.AddScoped<TokenService, TokenService>();
 builder.Services.AddScoped<LoginService, LoginService>();
-builder.Services.AddScoped<UserService, UserService>();
-
 
 builder.Services.AddCors();
 

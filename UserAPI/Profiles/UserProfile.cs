@@ -5,7 +5,7 @@ using UserAPI.Models;
 
 namespace UserAPI.Profiles
 {
-    public class UserProfile : Profile
+    public class UserProfile : AutoMapper.Profile
     {
         public UserProfile()
         {

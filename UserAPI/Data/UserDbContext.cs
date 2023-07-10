@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using UserAPI.Models;
 
 namespace UserAPI.Data
 {
@@ -10,5 +11,11 @@ namespace UserAPI.Data
         {
 
         }
+
+        public DbSet<Noticia> Noticias { get; set; }
+
+        public DbSet<Aula> Aulas { get; set; }
+
+        public DbSet<Profile> UserProfile  { get; set; }
     }
 }

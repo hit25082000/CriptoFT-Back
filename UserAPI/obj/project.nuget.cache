@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BCgdYkoMNpT2uZEjlTktgwE2c9ocz1t1MDIYG2wh5djBOvprwb2DhEn2h/+WAnzL5tsTmZj19oUH0uO5Ax6rcw==",
+  "dgSpecHash": "QcI/HBYTmiYcS6l2YHSKneQjrBL6354npW6HRR+9KEyZ1qef5WcAQDXHV0wYrPz6SVIfz37QwYsJhVXiBK15Tw==",
   "success": true,
   "projectFilePath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\domin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\domin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\domin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\fluentresults\\3.14.0\\fluentresults.3.14.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

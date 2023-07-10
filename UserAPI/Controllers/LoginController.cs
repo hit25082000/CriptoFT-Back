@@ -22,7 +22,7 @@ namespace UserAPI.Controllers
             Result result = _loginService.UserLogin(request);
             if (result.IsFailed) return Unauthorized(result.Errors);
 
-            return Ok(result.Successes);
+            return StatusCode(200,result.Reasons);
         }
 
         [HttpPost("/solicita-reset-senha")]

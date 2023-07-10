@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserAPI.Data;
 
@@ -10,9 +11,10 @@ using UserAPI.Data;
 namespace UserAPI.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230509014721_Banco noticia e aulas")]
+    partial class Banconoticiaeaulas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -212,11 +214,14 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Aula", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("Autor")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AutorUsuarioId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Data")
@@ -225,34 +230,29 @@ namespace UserAPI.Migrations
                     b.Property<string>("Descricao")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("ProfileId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Titulo")
                         .HasColumnType("longtext");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
 
                     b.Property<string>("VideoUrl")
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProfileId");
-
-                    b.HasIndex("UserId");
+                    b.HasIndex("AutorUsuarioId");
 
                     b.ToTable("Aulas");
                 });
 
             modelBuilder.Entity("UserAPI.Models.Noticia", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("Autor")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AutorUsuarioId")
                         .HasColumnType("int");
 
                     b.Property<string>("Conteudo")
@@ -264,36 +264,11 @@ namespace UserAPI.Migrations
                     b.Property<string>("Titulo")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("aspnetusersIDId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("aspnetusersIDId");
+                    b.HasIndex("AutorUsuarioId");
 
                     b.ToTable("Noticias");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("icone")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("sobre")
-                        .HasColumnType("longtext");
-
-                    b.Property<int?>("userId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("userId");
-
-                    b.ToTable("UserProfile");
                 });
 
             modelBuilder.Entity("UserAPI.Models.User", b =>
@@ -366,38 +341,20 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Aula", b =>
                 {
-                    b.HasOne("UserAPI.Models.Profile", null)
-                        .WithMany("AulasAssistidas")
-                        .HasForeignKey("ProfileId");
-
-                    b.HasOne("UserAPI.Models.User", "User")
+                    b.HasOne("UserAPI.Models.User", "AutorUsuario")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("AutorUsuarioId");
 
-                    b.Navigation("User");
+                    b.Navigation("AutorUsuario");
                 });
 
             modelBuilder.Entity("UserAPI.Models.Noticia", b =>
                 {
-                    b.HasOne("UserAPI.Models.User", "aspnetusersID")
+                    b.HasOne("UserAPI.Models.User", "AutorUsuario")
                         .WithMany()
-                        .HasForeignKey("aspnetusersIDId");
+                        .HasForeignKey("AutorUsuarioId");
 
-                    b.Navigation("aspnetusersID");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.HasOne("UserAPI.Models.User", "user")
-                        .WithMany()
-                        .HasForeignKey("userId");
-
-                    b.Navigation("user");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.Navigation("AulasAssistidas");
+                    b.Navigation("AutorUsuario");
                 });
 #pragma warning restore 612, 618
         }

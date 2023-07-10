@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserAPI.Data;
 
@@ -10,9 +11,10 @@ using UserAPI.Data;
 namespace UserAPI.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230510221803_User")]
+    partial class User
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -212,9 +214,9 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Aula", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("Autor")
                         .HasColumnType("int");
@@ -224,9 +226,6 @@ namespace UserAPI.Migrations
 
                     b.Property<string>("Descricao")
                         .HasColumnType("longtext");
-
-                    b.Property<int?>("ProfileId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Titulo")
                         .HasColumnType("longtext");
@@ -239,8 +238,6 @@ namespace UserAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProfileId");
-
                     b.HasIndex("UserId");
 
                     b.ToTable("Aulas");
@@ -248,9 +245,9 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Noticia", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("Autor")
                         .HasColumnType("int");
@@ -264,36 +261,14 @@ namespace UserAPI.Migrations
                     b.Property<string>("Titulo")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("aspnetusersIDId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("aspnetusersIDId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Noticias");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("icone")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("sobre")
-                        .HasColumnType("longtext");
-
-                    b.Property<int?>("userId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("userId");
-
-                    b.ToTable("UserProfile");
                 });
 
             modelBuilder.Entity("UserAPI.Models.User", b =>
@@ -366,10 +341,6 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Aula", b =>
                 {
-                    b.HasOne("UserAPI.Models.Profile", null)
-                        .WithMany("AulasAssistidas")
-                        .HasForeignKey("ProfileId");
-
                     b.HasOne("UserAPI.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId");
@@ -379,25 +350,11 @@ namespace UserAPI.Migrations
 
             modelBuilder.Entity("UserAPI.Models.Noticia", b =>
                 {
-                    b.HasOne("UserAPI.Models.User", "aspnetusersID")
+                    b.HasOne("UserAPI.Models.User", "User")
                         .WithMany()
-                        .HasForeignKey("aspnetusersIDId");
+                        .HasForeignKey("UserId");
 
-                    b.Navigation("aspnetusersID");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.HasOne("UserAPI.Models.User", "user")
-                        .WithMany()
-                        .HasForeignKey("userId");
-
-                    b.Navigation("user");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.Navigation("AulasAssistidas");
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }
