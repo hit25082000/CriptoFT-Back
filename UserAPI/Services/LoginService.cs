@@ -42,7 +42,7 @@ namespace UserAPI.Services
                 string recoverCode = _signInManager.UserManager.GeneratePasswordResetTokenAsync(identityUser).Result;
 
                 var encodedCode = HttpUtility.UrlEncode(recoverCode);
-                _emailService.SendResetPasswordEmail(new[] { identityUser.Email }, "Link de ativação", identityUser.Id, encodedCode);
+                _emailService.SendResetPasswordEmail(new[] { identityUser.Email }, "Link de Reset senha", encodedCode);
 
                 return Result.Ok().WithSuccess(recoverCode);
             }

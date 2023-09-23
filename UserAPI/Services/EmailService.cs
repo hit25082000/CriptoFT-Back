@@ -21,7 +21,7 @@ namespace UserAPI.Services
             Send(emailMensage);
         }
 
-        public void SendResetPasswordEmail(string[] destiny, string about, int userId, string code)
+        public void SendResetPasswordEmail(string[] destiny, string about, string code)
         {
             Mensage mensage = new Mensage(destiny, about, code);
             var emailMensage = CreateResetPasswordEmailBody(mensage);

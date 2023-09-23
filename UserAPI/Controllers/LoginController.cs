@@ -25,7 +25,7 @@ namespace UserAPI.Controllers
             return StatusCode(200,result.Reasons);
         }
 
-        [HttpPost("/solicitarresetsenha")]
+        [HttpPost("/solicitar-reset-senha")]
         public IActionResult RequestPasswordReset(RequestPasswordResetRequest request)
         {
             Result result = _loginService.RequestPasswordReset(request);
