@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FiIZVC7X8vtqiKgdwgbwOBaeuIL9QpLyb2VkU08h4QkdBkq0Bn4oDadjMHs3hfpiphaiKV3SFTST3P4kLNkR9g==",
+  "dgSpecHash": "y2b5Wm5YHoDBCsuJtYmpMPXZ4/6uRAGdHMW/A4riIUTFiUKLmon9ZyVQnhJkdfXjZDfv6W0as/kmF1skwV0PjQ==",
   "success": true,
-  "projectFilePath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
+  "projectFilePath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

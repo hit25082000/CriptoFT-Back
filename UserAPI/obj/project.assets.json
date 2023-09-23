@@ -7877,11 +7877,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
+      "projectUniqueName": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
       "projectName": "UserAPI",
-      "projectPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
+      "projectPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\2-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\obj\\",
+      "outputPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

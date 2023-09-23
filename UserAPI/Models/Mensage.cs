@@ -14,5 +14,13 @@ namespace UserAPI.Models
             About = about;
             Content = $"https://localhost:7084/ativa?UserId={userId}&ActivationCode={code}";
         }
+
+        public Mensage(IEnumerable<string> destiny, string about, string code)
+        {
+            Destiny = new List<MailboxAddress>();
+            Destiny.AddRange(destiny.Select(d => MailboxAddress.Parse(d)));
+            About = about; 
+            Content = $"https://localhost:4200/home/reset-senha?token={code}";
+        }
     }
 }

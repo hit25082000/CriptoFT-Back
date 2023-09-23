@@ -1,5 +1,6 @@
 ﻿using FluentResults;
 using Microsoft.AspNetCore.Identity;
+using System.Web;
 using UserAPI.Data.Requests;
 using UserAPI.Models;
 
@@ -9,11 +10,13 @@ namespace UserAPI.Services
     {
         private SignInManager<IdentityUser<int>> _signInManager;
         private TokenService _tokenService;
+        private EmailService _emailService;
 
-        public LoginService(SignInManager<IdentityUser<int>> signInManager, TokenService tokenService)
+        public LoginService(SignInManager<IdentityUser<int>> signInManager, TokenService tokenService, EmailService emailService)
         {
             _signInManager = signInManager;
             _tokenService = tokenService;
+            _emailService = emailService;
         }
 
         public Result UserLogin(LoginRequest request)
@@ -37,11 +40,15 @@ namespace UserAPI.Services
             if (identityUser != null)
             {
                 string recoverCode = _signInManager.UserManager.GeneratePasswordResetTokenAsync(identityUser).Result;
+
+                var encodedCode = HttpUtility.UrlEncode(recoverCode);
+                _emailService.SendResetPasswordEmail(new[] { identityUser.Email }, "Link de ativação", identityUser.Id, encodedCode);
+
                 return Result.Ok().WithSuccess(recoverCode);
             }
 
             return Result.Fail("Falha ao solicitar redefinição de senha");
-        }
+        }       
 
         public Result PasswordReset(ResetPasswordRequest request)
         {

@@ -25,6 +25,14 @@ namespace UserAPI.Services
         {
             User user = _mapper.Map<User>(createDto);
             IdentityUser<int> userIdentity = _mapper.Map<IdentityUser<int>>(user);
+
+            var emailAlreadyUsed = _userManager.Users.FirstOrDefault(e => e.Email == user.Email);
+
+            if (emailAlreadyUsed != null)
+            {
+                return Result.Fail("E-mail já cadastrado!");
+            }
+
             Task<IdentityResult> resultIdentity = _userManager
                 .CreateAsync(userIdentity, createDto.Password);
             if (resultIdentity.Result.Succeeded) 
@@ -33,7 +41,7 @@ namespace UserAPI.Services
 
                 var encodedCode = HttpUtility.UrlEncode(code);
 
-                _emailService.SendEmail(new[] {userIdentity.Email }, "Link de ativação", userIdentity.Id, encodedCode);
+                _emailService.SendActivationEmail(new[] {userIdentity.Email }, "Link de ativação", userIdentity.Id, encodedCode);
                 return Result.Ok().WithSuccess(code);
             }
             return Result.Fail(resultIdentity.Result.ToString());
