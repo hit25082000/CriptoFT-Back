@@ -16,6 +16,7 @@ namespace UserAPI.Controllers
             _aulaService = aulaService;
         }
 
+        [HttpGet("/aulas-user")]
         [HttpGet]
         public JsonResult GetAulasUser(int userId)
         {
