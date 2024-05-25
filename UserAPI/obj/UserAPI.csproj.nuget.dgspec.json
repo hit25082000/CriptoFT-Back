@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj": {}
+    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj": {}
   },
   "projects": {
-    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj": {
+    "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
+        "projectUniqueName": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj",
         "projectName": "UserAPI",
-        "projectPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\UserAPI.csproj",
+        "projectPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj",
         "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFTs\\UserAPI\\obj\\",
+        "outputPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,6 +37,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -104,7 +109,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -116,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
