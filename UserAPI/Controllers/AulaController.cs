@@ -40,5 +40,13 @@ namespace UserAPI.Controllers
             if (result.IsFailed) return false;
             return true;
         }
+
+        [HttpPost]
+        public bool RemoveAula(int aulaId)
+        {
+            Result result = _aulaService.RemoveAula(aulaId);
+            if (result.IsFailed) return false;
+            return true;
+        }
     }
 }

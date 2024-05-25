@@ -30,15 +30,23 @@ namespace UserAPI.Controllers
         [Route("AddNoticia")]
         public bool AddNoticia([FromBody] Noticia noticia)
         {
-            Result result = _noticiaService.AddNoticia(noticia, noticia.aspnetusersID.Id);
+            Result result = _noticiaService.AddNoticia(noticia);
             if (result.IsFailed) return false;
             return true;
         }
 
         [HttpPost]
-        public bool EditNoticia([FromQuery] Noticia noticia, int userId)
+        public bool EditNoticia([FromQuery] Noticia noticia)
         {
             Result result = _noticiaService.EditNoticia(noticia);
+            if (result.IsFailed) return false;
+            return true;
+        }
+
+        [HttpPost]
+        public bool RemoveNoticia(int noticiaId)
+        {
+            Result result = _noticiaService.RemoveNoticia(noticiaId);
             if (result.IsFailed) return false;
             return true;
         }

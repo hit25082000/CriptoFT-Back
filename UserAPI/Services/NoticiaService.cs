@@ -28,12 +28,8 @@ namespace UserAPI.Services
             return noticias;
         }
 
-        public Result AddNoticia(Noticia noticia, int userId)
+        public Result AddNoticia(Noticia noticia)
         {
-            var user = _context.Users.Find(userId.ToString());
-
-            noticia.aspnetusersID = _map.Map<User>(user);
-
             _context.Noticias.Add(noticia);
 
             _context.SaveChanges();            
@@ -44,6 +40,17 @@ namespace UserAPI.Services
         public Result EditNoticia(Noticia noticia)
         {
             _context.Noticias.Update(noticia);
+
+            _context.SaveChanges();
+
+            return Result.Ok();
+        }
+
+        internal Result RemoveNoticia(int noticiaId)
+        {
+            var noticia = _context.Noticias.Find(noticiaId);
+
+            _context.Noticias.Remove(noticia);
 
             _context.SaveChanges();
 

@@ -30,10 +30,6 @@ namespace UserAPI.Services
 
         public Result AddAula(Aula aula,int userId)
         {
-            var user = _context.Users.Find(userId.ToString());
-
-            aula.User = _map.Map<User>(user);
-
             _context.Aulas.Add(aula);
 
             _context.SaveChanges();            
@@ -44,6 +40,17 @@ namespace UserAPI.Services
         public Result EditAula(Aula aula)
         {
             _context.Aulas.Update(aula);
+
+            _context.SaveChanges();
+
+            return Result.Ok();
+        }
+
+        internal Result RemoveAula(int aulaId)
+        {
+            var aula = _context.Aulas.Find(aulaId);
+
+            _context.Aulas.Remove(aula);
 
             _context.SaveChanges();
 
