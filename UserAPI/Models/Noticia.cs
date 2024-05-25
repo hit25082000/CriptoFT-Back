@@ -2,10 +2,8 @@
 {
     public class Noticia : Entity
     {      
-        public string titulo { get; set; }
-        public string conteudo { get; set; }
-        public DateTime data { get; set; }
-        public int autor { get; set; }
-        public User aspnetusersID { get; set; }       
+        public string Titulo { get; set; }
+        public string Conteudo { get; set; }
+        public DateTime Data { get; set; }
     }
 }
