@@ -10,47 +10,47 @@ using UserAPI.Models;
 
 namespace UserAPI.Services
 {
-    public class NoticiaService
+    public class VideoService
     {
         private UserDbContext _context;
         private IMapper _map;
 
-        public NoticiaService(IMapper mapper, UserDbContext context, IMapper map)
+        public VideoService(IMapper mapper, UserDbContext context)
         {
             _context = context;
-            _map = map;
+            _map = mapper;
         }
 
-        internal List<Noticia> GetNoticias()
+        internal List<Video> GetVideos(int userId)
         {
-            List<Noticia> noticias = _context.Noticias.Where(x => x.Id == x.Id).ToList();
+            List<Video> video = _context.Videos.Where(a => a.Id == userId).ToList();
 
-            return noticias;
+            return video;
         }
 
-        public Result AddNoticia(Noticia noticia)
+        public Result AddVideo(Video video, int userId)
         {
-            _context.Noticias.Add(noticia);
+            _context.Videos.Add(video);
 
             _context.SaveChanges();            
             
             return Result.Ok();
         }
 
-        public Result EditNoticia(Noticia noticia)
+        public Result EditVideo(Video video)
         {
-            _context.Noticias.Update(noticia);
+            _context.Videos.Update(video);
 
             _context.SaveChanges();
 
             return Result.Ok();
         }
 
-        internal Result RemoveNoticia(int noticiaId)
+        internal Result RemoveVideo(int videoId)
         {
-            var noticia = _context.Noticias.Find(noticiaId);
+            var video = _context.Videos.Find(videoId);
 
-            _context.Noticias.Remove(noticia);
+            _context.Videos.Remove(video);
 
             _context.SaveChanges();
 

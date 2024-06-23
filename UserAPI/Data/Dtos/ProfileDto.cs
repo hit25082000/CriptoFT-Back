@@ -10,7 +10,7 @@ namespace UserAPI.Data.Dtos
         [Required]
         public IFormFile icone { get; set; }
         [Required]
-        public List<Aula> AulasAssistidas { get; set; }
+        public List<Video> AulasAssistidas { get; set; }
         public string sobre { get; set; }
 
     }

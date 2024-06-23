@@ -12,9 +12,9 @@ namespace UserAPI.Data
 
         }
 
-        public DbSet<Noticia> Noticias { get; set; }
+        public DbSet<Article> Articles { get; set; }
 
-        public DbSet<Aula> Aulas { get; set; }
+        public DbSet<Video> Videos { get; set; }
 
         public DbSet<Profile> UserProfile  { get; set; }
     }

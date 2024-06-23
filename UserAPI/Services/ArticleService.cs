@@ -10,47 +10,47 @@ using UserAPI.Models;
 
 namespace UserAPI.Services
 {
-    public class AulaService
+    public class ArticleService
     {
         private UserDbContext _context;
         private IMapper _map;
 
-        public AulaService(IMapper mapper, UserDbContext context)
+        public ArticleService(IMapper mapper, UserDbContext context, IMapper map)
         {
             _context = context;
-            _map = mapper;
+            _map = map;
         }
 
-        internal List<Aula> GetAulas(int userId)
+        internal List<Article> GetArticles()
         {
-            List<Aula> aulas = _context.Aulas.Where(a => a.Id == userId).ToList();
+            List<Article> Articles = _context.Articles.Where(x => x.Id == x.Id).ToList();
 
-            return aulas;
+            return Articles;
         }
 
-        public Result AddAula(Aula aula,int userId)
+        public Result AddArticle(Article Article)
         {
-            _context.Aulas.Add(aula);
+            _context.Articles.Add(Article);
 
             _context.SaveChanges();            
             
             return Result.Ok();
         }
 
-        public Result EditAula(Aula aula)
+        public Result EditArticle(Article Article)
         {
-            _context.Aulas.Update(aula);
+            _context.Articles.Update(Article);
 
             _context.SaveChanges();
 
             return Result.Ok();
         }
 
-        internal Result RemoveAula(int aulaId)
+        internal Result RemoveArticle(int articleId)
         {
-            var aula = _context.Aulas.Find(aulaId);
+            var article = _context.Articles.Find(articleId);
 
-            _context.Aulas.Remove(aula);
+            _context.Articles.Remove(article);
 
             _context.SaveChanges();
 
