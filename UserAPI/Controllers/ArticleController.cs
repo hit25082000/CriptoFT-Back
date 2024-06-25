@@ -17,8 +17,7 @@ namespace UserAPI.Controllers
             _articleService = articleService;
         }
 
-        [HttpGet]
-        [Route("GetArticles")]
+        [HttpGet("/get-articles")]
         public JsonResult GetArticles()
         {
             List<Article> articles = _articleService.GetArticles();

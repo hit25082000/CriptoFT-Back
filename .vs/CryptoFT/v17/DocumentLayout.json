@@ -3,96 +3,144 @@
   "WorkspaceRootPath": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\controllers\\logoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\logoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\mensage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\mensage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240623151640_english-refact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\Migrations\\20240623151640_english-refact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625014601_article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\Migrations\\20240625014601_article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625013503_video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\Migrations\\20240625013503_video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625012558_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\Migrations\\20240625012558_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\data\\requests\\acountactivationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\data\\requests\\acountactivationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\data\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\data\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\userapi\\data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625003936_refact-inglesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\Migrations\\20240625003936_refact-inglesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84936B44-CF96-47BC-98BD-F1C9E5AA51F3}|docker-compose.dcproj|d:\\administrador\\documents\\1_luiz_eduardo_domingues\\insted\\4-semestre\\pi\\back\\criptoft-back\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84936B44-CF96-47BC-98BD-F1C9E5AA51F3}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\logoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\logoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84936B44-CF96-47BC-98BD-F1C9E5AA51F3}|docker-compose.dcproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84936B44-CF96-47BC-98BD-F1C9E5AA51F3}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\userapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\userapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\mensage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\mensage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC6D211-3DFA-4DDF-B781-3C64C1492D7E}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\services\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\userapi\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:userapi\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI\\UserAPI.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,289 +150,460 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "UserAPI\\Dockerfile",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Dockerfile",
-              "RelativeToolTip": "UserAPI\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-23T17:02:20.613Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "UserAPI\\appsettings.json",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\appsettings.json",
-              "RelativeToolTip": "UserAPI\\appsettings.json",
+              "DocumentIndex": 3,
+              "Title": "LogoutController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\LogoutController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\LogoutController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\LogoutController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\LogoutController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-23T15:28:04.055Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T02:20:15.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240623151640_english-refact.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240623151640_english-refact.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Migrations\\20240623151640_english-refact.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240623151640_english-refact.cs",
-              "RelativeToolTip": "UserAPI\\Migrations\\20240623151640_english-refact.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:16:41.097Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Program.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Program.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Program.cs",
-              "RelativeToolTip": "UserAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:15:01.1Z"
+              "WhenOpened": "2024-06-23T18:16:07.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\EmailService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\EmailService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:09:09.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\TokenService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\TokenService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\TokenService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:09:08.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\UserService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\UserService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:08:58.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Data\\UserDbContext.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\UserDbContext.cs",
-              "RelativeToolTip": "UserAPI\\Data\\UserDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:08:47.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Models\\Course.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Course.cs",
-              "RelativeToolTip": "UserAPI\\Models\\Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:58:42.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Mensage.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Mensage.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Models\\Mensage.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Mensage.cs",
-              "RelativeToolTip": "UserAPI\\Models\\Mensage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:57:56.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ArticleController.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\ArticleController.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Controllers\\ArticleController.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\ArticleController.cs",
-              "RelativeToolTip": "UserAPI\\Controllers\\ArticleController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwBAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:19:40.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "VideoService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\VideoService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\VideoService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\VideoService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\VideoService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:19:08.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ArticleService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\ArticleService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\ArticleService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\ArticleService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\ArticleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:19:54.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VideoController.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\VideoController.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Controllers\\VideoController.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\VideoController.cs",
-              "RelativeToolTip": "UserAPI\\Controllers\\VideoController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAhwBcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:18:41.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "LoginService.cs",
               "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\LoginService.cs",
               "RelativeDocumentMoniker": "UserAPI\\Services\\LoginService.cs",
               "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\LoginService.cs",
               "RelativeToolTip": "UserAPI\\Services\\LoginService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAhwDwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:09:11.741Z"
+              "WhenOpened": "2024-06-24T22:01:05.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogoutService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\LogoutService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\LogoutService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\LogoutService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\LogoutService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\VideoController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\VideoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:12:19.202Z"
+              "WhenOpened": "2024-06-24T22:12:54.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\ArticleController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\ArticleController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:15:56.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:01:05.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:01:05.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\RegisterService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\RegisterService.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\RegisterService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\RegisterService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:12:20.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Video.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Video.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Models\\Video.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Video.cs",
-              "RelativeToolTip": "UserAPI\\Models\\Video.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:17:13.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "Article.cs",
               "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Article.cs",
               "RelativeDocumentMoniker": "UserAPI\\Models\\Article.cs",
               "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Article.cs",
               "RelativeToolTip": "UserAPI\\Models\\Article.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:17:41.71Z"
+              "WhenOpened": "2024-06-25T01:24:27.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:01:05.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mensage.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Mensage.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Models\\Mensage.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Mensage.cs",
+              "RelativeToolTip": "UserAPI\\Models\\Mensage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:33:28.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UserAPI\\appsettings.json",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\appsettings.json",
+              "RelativeToolTip": "UserAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T18:34:40.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "UserAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "UserAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T00:31:09.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\RegisterService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\RegisterService.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\RegisterService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\RegisterService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:01:05.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240625014601_article.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625014601_article.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Migrations\\20240625014601_article.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625014601_article.cs",
+              "RelativeToolTip": "UserAPI\\Migrations\\20240625014601_article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:46:01.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Video.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Video.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Models\\Video.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Video.cs",
+              "RelativeToolTip": "UserAPI\\Models\\Video.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:23:37.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "UserAPI\\Models\\User.cs",
               "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\User.cs",
               "RelativeToolTip": "UserAPI\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:18:14.526Z"
+              "WhenOpened": "2024-06-25T01:24:22.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Token.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Token.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Models\\Token.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Token.cs",
-              "RelativeToolTip": "UserAPI\\Models\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "DocumentIndex": 26,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Dtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Data\\Dtos\\CreateUserDto.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Dtos\\CreateUserDto.cs",
+              "RelativeToolTip": "UserAPI\\Data\\Dtos\\CreateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:18:10.375Z"
+              "WhenOpened": "2024-06-25T01:24:39.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Models\\Profile.cs",
-              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Profile.cs",
-              "RelativeToolTip": "UserAPI\\Models\\Profile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 25,
+              "Title": "ProfileDto.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Dtos\\ProfileDto.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Data\\Dtos\\ProfileDto.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Dtos\\ProfileDto.cs",
+              "RelativeToolTip": "UserAPI\\Data\\Dtos\\ProfileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:18:02.321Z"
+              "WhenOpened": "2024-06-25T01:24:40.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\UserService.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\UserService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:34:06.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240625013503_video.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625013503_video.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Migrations\\20240625013503_video.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625013503_video.cs",
+              "RelativeToolTip": "UserAPI\\Migrations\\20240625013503_video.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:35:03.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Data\\UserDbContext.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "UserAPI\\Data\\UserDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T23:52:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Models\\Course.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Course.cs",
+              "RelativeToolTip": "UserAPI\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:13:11.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240625012558_course.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625012558_course.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Migrations\\20240625012558_course.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625012558_course.cs",
+              "RelativeToolTip": "UserAPI\\Migrations\\20240625012558_course.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAjwDIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:25:59.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Entity.cs",
               "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Entity.cs",
               "RelativeDocumentMoniker": "UserAPI\\Models\\Entity.cs",
               "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Entity.cs",
               "RelativeToolTip": "UserAPI\\Models\\Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:17:21.333Z"
+              "WhenOpened": "2024-06-25T01:33:29.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Token.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Models\\Token.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Models\\Token.cs",
+              "RelativeToolTip": "UserAPI\\Models\\Token.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:33:34.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240625003936_refact-inglesh.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625003936_refact-inglesh.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Migrations\\20240625003936_refact-inglesh.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Migrations\\20240625003936_refact-inglesh.cs",
+              "RelativeToolTip": "UserAPI\\Migrations\\20240625003936_refact-inglesh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:39:36.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VideoService.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\VideoService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\VideoService.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Services\\VideoService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\VideoService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwD4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:14:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AcountActivationRequest.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Requests\\AcountActivationRequest.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Data\\Requests\\AcountActivationRequest.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Data\\Requests\\AcountActivationRequest.cs",
+              "RelativeToolTip": "UserAPI\\Data\\Requests\\AcountActivationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:24:44.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T18:42:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "UserAPI\\Dockerfile",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Dockerfile",
+              "RelativeToolTip": "UserAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-23T18:38:18.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-23T18:39:04.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Program.cs",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\Program.cs",
+              "RelativeToolTip": "UserAPI\\Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:03:34.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserAPI",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj",
+              "RelativeDocumentMoniker": "UserAPI\\UserAPI.csproj",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj",
+              "RelativeToolTip": "UserAPI\\UserAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-23T18:20:14.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-23T18:08:44.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserAPI.csproj.user",
+              "DocumentMoniker": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj.user",
+              "RelativeDocumentMoniker": "UserAPI\\UserAPI.csproj.user",
+              "ToolTip": "D:\\Administrador\\Documents\\1_Luiz_Eduardo_Domingues\\INSTED\\4-Semestre\\PI\\Back\\CriptoFT-Back\\UserAPI\\UserAPI.csproj.user",
+              "RelativeToolTip": "UserAPI\\UserAPI.csproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-06-23T17:40:11.907Z"
             }
           ]
         }

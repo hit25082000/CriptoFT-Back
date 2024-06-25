@@ -29,45 +29,6 @@ namespace UserAPI.Services
             }
 
             return Result.Fail("Falha usuario ja existe");
-        }
-
-        public Models.Profile GetUserProfile(int userId)
-        {
-            Models.Profile profile = _context.UserProfile.FirstOrDefault(x => x.User.Id == userId);            
-
-            return profile;
-        }
-
-        public Result AddProfile(Models.Profile profile,int userId)
-        {
-            var user = _context.Users.Find(userId.ToString());
-
-            if(user == null)
-            {
-                return Result.Fail("Falha usuario não encontrado");
-            }
-
-            if(GetUserProfile(user.Id) != null)
-            {
-              return Result.Fail("Falha usuario ja tem perfil");
-            }
-
-            profile.User = _map.Map<User>(user);
-
-            _context.UserProfile.Add(profile);
-
-            _context.SaveChanges();
-
-            return Result.Ok();
-        }
-
-        public Result EditProfile(Models.Profile profile)
-        {
-            _context.Update(profile);
-
-            _context.SaveChanges();           
-
-            return Result.Ok();
-        }
+        }     
     }
 }

@@ -6,6 +6,7 @@ using System.Web;
 using UserAPI.Data;
 using UserAPI.Data.Dtos;
 using UserAPI.Data.Requests;
+using UserAPI.Migrations;
 using UserAPI.Models;
 
 namespace UserAPI.Services
@@ -55,6 +56,20 @@ namespace UserAPI.Services
             _context.SaveChanges();
 
             return Result.Ok();
+        }
+
+        internal List<Video> GetCourseVideos(int courseId)
+        {
+            List<Video> video = _context.Videos.Where(a => a.Course.Id == courseId).ToList();
+
+            return video;
+        }
+
+        internal List<Course> GetCourses()
+        {
+            List<Course> courses = _context.Courses.ToList();
+
+            return courses;
         }
     }
 }

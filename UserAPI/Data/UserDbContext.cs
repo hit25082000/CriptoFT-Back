@@ -16,6 +16,6 @@ namespace UserAPI.Data
 
         public DbSet<Video> Videos { get; set; }
 
-        public DbSet<Profile> UserProfile  { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }

@@ -15,15 +15,22 @@ namespace UserAPI.Controllers
         public VideoController(VideoService videoService)
         {
             _videoService = videoService;
+        }       
+
+        [HttpGet("/get-course-videos/{id}")]
+        public JsonResult GetCourseVideos(int id)
+        {
+            List<Video> videos = _videoService.GetCourseVideos(id);
+
+            return new JsonResult(videos);
         }
 
-        [HttpGet("/videos-user")]
-        [HttpGet]
-        public JsonResult GetVideosUser(int userId)
+        [HttpGet("/get-courses")]
+        public JsonResult GetCourses()
         {
-            List<Video> aulas = _videoService.GetVideos(userId);
+            List<Course> courses = _videoService.GetCourses();
 
-            return new JsonResult(aulas);
+            return new JsonResult(courses);
         }
 
         [HttpPost]

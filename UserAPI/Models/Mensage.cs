@@ -20,7 +20,7 @@ namespace UserAPI.Models
             Destiny = new List<MailboxAddress>();
             Destiny.AddRange(destiny.Select(d => MailboxAddress.Parse(d)));
             About = about; 
-            Content = $"http://localhost:4200/home/reset-senha?token={code}";
+            Content = $"http://localhost:4200/user/reset-password?token={code}";
         }
     }
 }

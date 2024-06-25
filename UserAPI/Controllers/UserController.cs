@@ -24,28 +24,6 @@ namespace UserAPI.Controllers
             if (result.IsFailed) return false;
             return true;
         }
-
-        [HttpGet("{id}")]
-        public JsonResult GetUserProfile(int id)
-        {
-            Profile profile = _userService.GetUserProfile(id);
-            return new JsonResult(profile);
-        }
-
-        [HttpPost]
-        public bool AddProfile([FromQuery] Profile profile,int userId)
-        {
-            Result result = _userService.AddProfile(profile,userId);
-            if (result.IsFailed) return false;
-            return true;
-        }
-
-        [HttpPost]
-        public bool EditProfile([FromQuery] Profile profile)
-        {
-            Result result = _userService.EditProfile(profile);
-            if (result.IsFailed) return false;
-            return true;
-        }
+        
     }
 }

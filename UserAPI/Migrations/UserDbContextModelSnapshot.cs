@@ -222,7 +222,16 @@ namespace UserAPI.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("ImgPath")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Theme")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Title")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Url")
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
@@ -230,40 +239,24 @@ namespace UserAPI.Migrations
                     b.ToTable("Articles");
                 });
 
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
+            modelBuilder.Entity("UserAPI.Models.Course", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Icon")
+                    b.Property<string>("Description")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("DurationMin")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserProfile");
-                });
-
-            modelBuilder.Entity("UserAPI.Models.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Username")
+                    b.Property<string>("Thumb")
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("UserAPI.Models.Video", b =>
@@ -272,7 +265,7 @@ namespace UserAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("CourseId")
+                    b.Property<int?>("CourseId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
@@ -280,9 +273,6 @@ namespace UserAPI.Migrations
 
                     b.Property<string>("Description")
                         .HasColumnType("longtext");
-
-                    b.Property<int?>("ProfileId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .HasColumnType("longtext");
@@ -292,7 +282,7 @@ namespace UserAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProfileId");
+                    b.HasIndex("CourseId");
 
                     b.ToTable("Videos");
                 });
@@ -348,25 +338,18 @@ namespace UserAPI.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
-                {
-                    b.HasOne("UserAPI.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("UserAPI.Models.Video", b =>
                 {
-                    b.HasOne("UserAPI.Models.Profile", null)
-                        .WithMany("FavovireVideos")
-                        .HasForeignKey("ProfileId");
+                    b.HasOne("UserAPI.Models.Course", "Course")
+                        .WithMany("Videos")
+                        .HasForeignKey("CourseId");
+
+                    b.Navigation("Course");
                 });
 
-            modelBuilder.Entity("UserAPI.Models.Profile", b =>
+            modelBuilder.Entity("UserAPI.Models.Course", b =>
                 {
-                    b.Navigation("FavovireVideos");
+                    b.Navigation("Videos");
                 });
 #pragma warning restore 612, 618
         }

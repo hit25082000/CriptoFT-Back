@@ -20,7 +20,7 @@ namespace UserAPI.Controllers
         public IActionResult UserLogin(LoginRequest request)
         {
             Result result = _loginService.UserLogin(request);
-            if (result.IsFailed) return Unauthorized(result.Errors);
+            if (result.IsFailed) return StatusCode(500, result.Errors[0]);
 
             return StatusCode(200,result.Reasons);
         }
@@ -29,7 +29,7 @@ namespace UserAPI.Controllers
         public IActionResult RequestPasswordReset(RequestPasswordResetRequest request)
         {
             Result result = _loginService.RequestPasswordReset(request);
-            if (result.IsFailed) return Unauthorized(result.Errors);
+            if (result.IsFailed) return StatusCode(500,result.Errors[0]);
             return Ok(result.Successes);
         }
 
@@ -37,7 +37,7 @@ namespace UserAPI.Controllers
         public IActionResult PasswordReset(ResetPasswordRequest request)
         {
             Result result = _loginService.PasswordReset(request);
-            if (result.IsFailed) return Unauthorized(result.Errors);
+            if (result.IsFailed) return StatusCode(500,result.Errors[0]);
             return Ok(result.Successes);
         }        
     }

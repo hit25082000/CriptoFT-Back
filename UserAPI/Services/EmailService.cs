@@ -79,7 +79,7 @@ namespace UserAPI.Services
 
             var htmlBody = new BodyBuilder();
             htmlBody.HtmlBody = $"<p>Olá, Para alterar sua senha clique no Botão abaixo.</p>"
-                             + $"<p><a href='{mensage.Content}' style='background-color: #4CAF50; color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px;'>Ativar Conta</a></p>"
+                             + $"<p><a href='{mensage.Content}' style='background-color: #4CAF50; color: white; padding: 12px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px;'>Alterar Senha</a></p>"
                              + "<p>Se o botão não funcionar, você também pode ativar a sua conta copiando e colando o seguinte link em seu navegador:</p>"
                              + $"<p><a href='{mensage.Content}'>{mensage.Content}</a></p>";
 
